@@ -9,11 +9,16 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *nameField;
+@property (weak, nonatomic) IBOutlet UITextField *numberField;
 @property (weak, nonatomic) IBOutlet UILabel *sliderLabel;
 @property (weak, nonatomic) IBOutlet UILabel *segmentLabel;
 @property (weak, nonatomic) IBOutlet UISlider *sliderControl;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *mySegmentControl;
+@property (weak, nonatomic) IBOutlet UISwitch *beastModeControl;
+@property (weak, nonatomic) IBOutlet UILabel *beastModeLabel;
 
+- (IBAction)textFieldDoneEditing:(id)sender;
 
 @end
 
