@@ -51,6 +51,13 @@
     [self.numberField resignFirstResponder];
 }
 
+#pragma mark Slider
+
+- (IBAction)sliderChanged:(UISlider *)sender
+{
+    int progress = (int)lroundf(sender.value);
+    self.sliderLabel.text = [NSString stringWithFormat:@"%d", progress];
+}
 
 #pragma mark Sergment
 
