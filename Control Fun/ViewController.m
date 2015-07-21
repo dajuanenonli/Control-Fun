@@ -72,7 +72,17 @@
     }
 }
 
+#pragma mark Switch
 
+- (IBAction)beastModeChanged:(UISwitch *)sender
+{
+    if (sender.on) {
+        self.beastModeLabel.text = @"Beast Mode On";
+    }else
+    {
+        self.beastModeLabel.text = @"Beast Mode Off";
+    }
+}
 
 
 @end
