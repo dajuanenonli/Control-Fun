@@ -10,7 +10,9 @@
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *sliderLabel;
+@property (weak, nonatomic) IBOutlet UILabel *segmentLabel;
 @property (weak, nonatomic) IBOutlet UISlider *sliderControl;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *mySegmentControl;
 
 
 @end
