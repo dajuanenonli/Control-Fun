@@ -19,7 +19,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
+    [self sliderChanged:(UISlider *)self.sliderControl];
+    [self beastModeChanged:(UISwitch *)self.beastModeControl];
+    [self segmentChanged:(UISegmentedControl *)self.mySegmentControl];
 }
 
 - (void)didReceiveMemoryWarning {
