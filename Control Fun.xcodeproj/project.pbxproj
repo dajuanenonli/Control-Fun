@@ -63,6 +63,7 @@
 		DEA36EEF1B5D7AF100A2094B = {
 			isa = PBXGroup;
 			children = (
+				DEC90DF11B5EA3BD00C9E16A /* Common */,
 				DEA36EFA1B5D7AF100A2094B /* Control Fun */,
 				DEA36F141B5D7AF100A2094B /* Control FunTests */,
 				DEA36EF91B5D7AF100A2094B /* Products */,
@@ -117,6 +118,13 @@
 				DEA36F161B5D7AF100A2094B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEC90DF11B5EA3BD00C9E16A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +426,7 @@
 				DEA36F1D1B5D7AF100A2094B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEA36F1E1B5D7AF100A2094B /* Build configuration list for PBXNativeTarget "Control FunTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +435,7 @@
 				DEA36F201B5D7AF100A2094B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
