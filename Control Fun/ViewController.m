@@ -47,6 +47,26 @@
 }
 
 
+#pragma mark Sergment
+
+- (IBAction)segmentChanged:(UISegmentedControl *)sender
+{
+    //self.segmentLabel.text = sender.selectedSegmentIndex;
+    
+    int selectedIndex = (int)sender.selectedSegmentIndex;
+    switch (selectedIndex) {
+        case 0:
+            self.segmentLabel.text = @"I prefer Blonde.";
+            break;
+        case 1:
+            self.segmentLabel.text = @"I prefer Brunette.";
+            break;
+        default:
+            self.segmentLabel.text = @"I have no preference";
+            break;
+    }
+}
+
 
 
 
